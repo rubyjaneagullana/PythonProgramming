@@ -1,10 +1,13 @@
 income=float(input("enter your  yearly salary: "))
+
+totaltax = 0
 if income > 0:
     taxable = min([income, 350000])
     income = income - taxable
     print("taxable income=", taxable)
     print("remaining income=", income)
     totaltax=0
+
 
 
 
